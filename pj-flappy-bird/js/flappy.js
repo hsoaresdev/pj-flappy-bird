@@ -180,10 +180,17 @@ function FlappyBird() {
 
             if(colidiu(passaro,barreiras)){
                 clearInterval(temporizador)
+                
             }
         }, 20)
     }
 }
 
-new FlappyBird().start()
+const homeFlappy = new FlappyBird()
+
+function start() {
+    homeFlappy.start()
+} 
+
+
 
